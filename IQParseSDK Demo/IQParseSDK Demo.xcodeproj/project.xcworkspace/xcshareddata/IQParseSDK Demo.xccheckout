@@ -12,22 +12,34 @@
 	<dict>
 		<key>9FABD8B8-B312-412F-B26A-CB391DC61249</key>
 		<string>https://github.com/hackiftekhar/IQParseSDK.git</string>
+		<key>E063B1AD972FFAA0FB4AAC3DB3B94A00706701D8</key>
+		<string>https://github.com/hackiftekhar/IQParseSDK.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IQParseSDK Demo/IQParseSDK Demo.xcodeproj/project.xcworkspace</string>
+	<string>IQParseSDK Demo/IQParseSDK Demo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9FABD8B8-B312-412F-B26A-CB391DC61249</key>
+		<string>../../../../IQParseSDK</string>
+		<key>E063B1AD972FFAA0FB4AAC3DB3B94A00706701D8</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/hackiftekhar/IQParseSDK.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9FABD8B8-B312-412F-B26A-CB391DC61249</string>
+	<string>E063B1AD972FFAA0FB4AAC3DB3B94A00706701D8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E063B1AD972FFAA0FB4AAC3DB3B94A00706701D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Github</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

@@ -26,8 +26,6 @@
 #import "IQ_PFFile.h"
 #import "IQ_PFRelation.h"
 
-#import "IQ_Base64.h"
-
 #import <Foundation/NSDate.h>
 #import <Foundation/NSThread.h>
 #import <Foundation/NSDictionary.h>
