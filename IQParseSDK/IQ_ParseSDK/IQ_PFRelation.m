@@ -23,6 +23,7 @@
 
 #import "IQ_PFRelation.h"
 #import "IQPFHTTPServiceConstants.h"
+#import "IQ_PFObject.h"
 
 @interface IQ_PFObject ()
 
