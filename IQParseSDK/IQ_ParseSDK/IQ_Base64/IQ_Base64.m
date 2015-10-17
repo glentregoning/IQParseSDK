@@ -50,7 +50,7 @@
     
     NSData *decoded = nil;
     
-#if __MAC_OS_X_VERSION_MIN_REQUIRED < __MAC_10_9 || __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_7_0
+#if (__MAC_OS_X_VERSION_MIN_REQUIRED < __MAC_10_9 || __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_7_0) && !defined(TARGET_OS_TV)
     
     if (![NSData instancesRespondToSelector:@selector(initWithBase64EncodedString:options:)])
     {
