@@ -26,6 +26,9 @@
 #import "IQ_PFObject.h"
 #import "IQURLConnection.h"
 #import "IQ_Base64.h"
+#import "IQ_PFGeoPoint.h"
+#import "IQ_PFFile.h"
+#import "IQ_PFRelation.h"
 
 #import <Foundation/NSDictionary.h>
 #import <Foundation/NSString.h>
@@ -367,7 +370,7 @@
     }
     else
     {
-        return NO;
+        return nil;
     }
 }
 
