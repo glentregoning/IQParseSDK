@@ -68,7 +68,11 @@
 {
     if (_activityView == nil)
     {
-        _activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+        UIActivityIndicatorViewStyle style = UIActivityIndicatorViewStyleWhite;
+#if !defined(TARGET_OS_TV)
+        style = UIActivityIndicatorViewStyleGray
+#endif
+        _activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:style];
         [self addSubview:_activityView];
     }
     
