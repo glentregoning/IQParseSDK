@@ -25,6 +25,7 @@
 #import "IQPFHTTPService.h"
 #import "IQ_PFFile.h"
 #import "IQ_PFRelation.h"
+#import "IQ_PFGeoPoint.h"
 
 #import "IQ_Base64.h"
 

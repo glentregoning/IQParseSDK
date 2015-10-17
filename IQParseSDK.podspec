@@ -60,7 +60,7 @@ IQParseSDK is unofficial Open Source implementation of Parse iOS SDK using Rest 
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -76,7 +76,7 @@ IQParseSDK is unofficial Open Source implementation of Parse iOS SDK using Rest 
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/glentregoning/IQParseSDK", :tag => s.version }
+  s.source       = { :git => "https://github.com/glentregoning/IQParseSDK.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -114,7 +114,7 @@ IQParseSDK is unofficial Open Source implementation of Parse iOS SDK using Rest 
   #
 
   # s.framework  = "SomeFramework"
-  #s.frameworks = "CoreGraphics", "UIKit", "Foundation"
+  s.frameworks = "CoreGraphics", "UIKit", "Foundation", "CoreLocation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -130,5 +130,6 @@ IQParseSDK is unofficial Open Source implementation of Parse iOS SDK using Rest 
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  # s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import <Foundation/Foundation.h>'
 
 end
